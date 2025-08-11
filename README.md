@@ -1,6 +1,6 @@
-# Frequrses: A Terminal-Based Sound Generator
+# Frequrses: A Terminal-Based Frequency Generator
 
-Frequrses is a fun, lightweight, terminal-based application for generating tones and frequency sweeps directly from your command line. Built with C++ and the classic `ncurses` library, it provides an interactive TUI (Text-based User Interface) to control the powerful SoX (Sound eXchange) audio utility.
+Frequrses is a lightweight, terminal-based application for generating tones and frequency sweeps directly from command line. Built with C++ and the classic `ncurses` library, it provides an interactive TUI (Text-based User Interface) to control the powerful SoX (Sound eXchange) audio utility.
 
 ### Demo
 
@@ -42,7 +42,7 @@ sudo dnf groupinstall "Development Tools" && sudo dnf install ncurses-devel sox
 Clone the repository and use the provided `Makefile` to compile the project.
 
 ```bash
-git clone [https://github.com/MAST-CloudNet-Code/frequrses](https://github.com/MAST-CloudNet-Code/frequrses.git)
+git clone https://github.com/MAST-CloudNet-Code/frequrses.git
 cd frequrses
 make
 ```
@@ -66,6 +66,6 @@ Run the application from your terminal:
 | `Tab`   | Cycle through the parameters to edit     |
 | `Enter` | Select a parameter and enter a new value |
 | `p`     | **Play** the sound with the current settings |
-| `Q`     | Quit the application                     |
+| `ctrl+c`     | Quit the application                     |
 
 
